@@ -29,6 +29,9 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
 
     onNoteCreated(content);
 
+    setContent('')
+    setShouldShowOnboarding(true)
+
     toast.success('Nota criada com sucesso!')
     
   }
@@ -59,7 +62,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
                     Comece <button className='font-medium text-lime-400 hover:underline'>gravando uma nota</button> em áudio ou se preferir <button onClick={ handleStartEditor } className='font-medium text-lime-400 hover:underline'>utilize apenas texto</button>.                         
                     </p>
                   ) : (
-                    <textarea autoFocus className='text-sm leading-6 text-slate-400 bg-transparent resize-none flex-1 outline-none' onChange={handleContentChanged}></textarea>
+                    <textarea autoFocus className='text-sm leading-6 text-slate-400 bg-transparent resize-none flex-1 outline-none' onChange={handleContentChanged} value={content}></textarea>
                   )}
                 </div>
 
