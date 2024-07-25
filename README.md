@@ -25,11 +25,11 @@ Este é um projeto desenvolvido em aula no evento NLW expert.
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
 - TypeScript
 - ReactJS
-- Git e Github
+- TailwindCSS
 - Figma
+- Git e Github
 
 ## 💻 Projeto
 
@@ -45,5 +45,5 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com ♥
 
